@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\Tarea.Semana1\Tarea.Semana1\bin\Debug\Tarea.Semana1.exe.config
+C:\Users\HP\source\repos\Tarea.Semana1\Tarea.Semana1\bin\Debug\Tarea.Semana1.exe
+C:\Users\HP\source\repos\Tarea.Semana1\Tarea.Semana1\bin\Debug\Tarea.Semana1.pdb
+C:\Users\HP\source\repos\Tarea.Semana1\Tarea.Semana1\obj\Debug\Tarea.Semana1.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Tarea.Semana1\Tarea.Semana1\obj\Debug\Tarea.Semana1.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Tarea.Semana1\Tarea.Semana1\obj\Debug\Tarea.Semana1.exe
+C:\Users\HP\source\repos\Tarea.Semana1\Tarea.Semana1\obj\Debug\Tarea.Semana1.pdb
