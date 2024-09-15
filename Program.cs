@@ -51,25 +51,44 @@ namespace Tarea.Semana1
             
 
                  */
+            /*
+                        // tarecer EJERCICIO
+                        Coordinador coordinador = new Coordinador();
 
-            // tarecer EJERCICIO
-            Coordinador coordinador = new Coordinador();
+                        coordinador.codigo = 102;
+                        coordinador.nombre = "Yaxon Castillo";
+                        coordinador.categoria = 2; 
+                        coordinador.numeroCelular = 918751566;
 
-            coordinador.codigo = 102;
-            coordinador.nombre = "Yaxon Castillo";
-            coordinador.categoria = 2; 
-            coordinador.numeroCelular = 918751566;
 
-            
-            Console.WriteLine("Datos del Coordinador:");
-            Console.WriteLine($"Código: {coordinador.codigo}");
-            Console.WriteLine($"Nombre: {coordinador.nombre}");
-            Console.WriteLine($"Categoría: {coordinador.categoria}");
-            Console.WriteLine($"Número de Celular: {coordinador.numeroCelular}");
+                        Console.WriteLine("Datos del Coordinador:");
+                        Console.WriteLine($"Código: {coordinador.codigo}");
+                        Console.WriteLine($"Nombre: {coordinador.nombre}");
+                        Console.WriteLine($"Categoría: {coordinador.categoria}");
+                        Console.WriteLine($"Número de Celular: {coordinador.numeroCelular}");
 
-            // sueldo del coordinador
-            Console.WriteLine($"Sueldo: S/ {coordinador.ObtenerSueldo():F2}");
-                 
+                        // sueldo del coordinador
+                        Console.WriteLine($"Sueldo: S/ {coordinador.ObtenerSueldo():F2}");
+                             */
+
+
+            // Declarar y crear un objeto de tipo Docente con datos fijos
+            Docente docente = new Docente(1001, "Yaxon Castillo", 160, 30.50);
+
+            // Obtener los datos
+            int codigo = docente.Codigo;
+            string nombre = docente.Nombre;
+            double sueldoBruto = docente.CalcularSueldoBruto();
+            double descuento = docente.CalcularDescuento();
+            double sueldoNeto = docente.CalcularSueldoNeto();
+
+            Console.WriteLine("Datos del docente:");
+            Console.WriteLine($"Código: {codigo}");
+            Console.WriteLine($"Nombre: {nombre}");
+            Console.WriteLine($"Sueldo Bruto: {sueldoBruto:C}");
+            Console.WriteLine($"Descuento: {descuento:C}");
+            Console.WriteLine($"Sueldo Neto: {sueldoNeto:C}");
+
             Console.ReadKey();
         } 
     }
